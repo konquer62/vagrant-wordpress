@@ -28,7 +28,7 @@ All configuration file is in provision directory:
 ## Installation
 
 ```
-git clone https://github.com/konquer62/vagrant-wordpress/tree/main/provision
+git clone https://github.com/konquer62/vagrant-wordpress.git
 cd vagrant-wordpress
 vagrant up
 ```
