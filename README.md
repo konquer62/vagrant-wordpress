@@ -4,11 +4,11 @@
 
 ## Description
 
-Two vms:
+Two vms on debian/bullseye64:
 * db - mariadb
 * web - nginx + php-fpm
 
-All congiguration file is in provision directory:
+All configuration file is in provision directory:
 * nginx configs
    * nginx.conf
    * php.conf                      - php fastcgi config
@@ -37,7 +37,7 @@ vagrant up
 
 * Default IP addresses:
    * 192.168.33.10 for web
-   * 192.168.33.10 for db
+   * 192.168.33.11 for db
 
 * Mariadb:
   * Default root password: 'qwerty'
